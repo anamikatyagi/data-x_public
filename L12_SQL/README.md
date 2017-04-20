@@ -2,9 +2,9 @@
 
 ## Exercises
 
-In this short intro we will play around with some SQL commands. Because there are so many different DBMS that requires installation we will work in an online SQL editor, found here: [https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
+In this intro to SQL we will use an online SQL editor: [https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
 
-First we can see that there already exists a database with the tables: Categories, Employees, OrderDetails	, Orders, Products, Shippers, and Suppliers. Feel free to explore these tables, but they are not the ones we will work with (if you want to you can drop them, one by one, by using the SQL command `DROP TABLE [table name];`
+There are already some tables in this Database: (Categories, Employees, OrderDetails	, Orders, Products, Shippers, and Suppliers). We are not going to use them, and if you want you can drop them by running `DROP TABLE [table name];`
 
 
 
@@ -22,7 +22,18 @@ First create a table called parents. It has two columns: 'parent' and 'child'. T
 	  SELECT "fillmore",          "delano"          UNION
 	  SELECT "fillmore",          "grover"          UNION
 	  SELECT "eisenhower",        "fillmore";
+	  
+### Q1 Simple SELECTS on the parents table
+1. SELECT all records in the table.
+2. SELECT all children that have abraham as parent.
+3. SELECT all children that have an 'e' in their name.
+4. SELECT all siblings from the parents table (see picture below)
 
+### Picture of the Dog Family Tree
+
+(A = abrham, B = barack, etc.)
+
+![alt text](https://github.com/alexanderfo/data-x_public/raw/master/L12_SQL/imgs/family_tree.png "Dog Family Tree")
 
 
 .
@@ -32,4 +43,4 @@ First create a table called parents. It has two columns: 'parent' and 'child'. T
 .
 
 .
-*These examples are inspired by the Lectures given in CS61A the Fall of 2014.*
+*These exercises are inspired by the Lectures in CS61A (Fall 2014).*
