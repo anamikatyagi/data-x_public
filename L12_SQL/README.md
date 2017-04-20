@@ -33,8 +33,7 @@ First create a table called parents. It has two columns: 'parent' and 'child'. T
 
 (A = abrham, B = barack, etc.)
 
-![alt text](https://github.com/alexanderfo/data-x_public/raw/master/L12_SQL/imgs/family_tree.png "Dog Family Tree")
-
+<center><img src="https://github.com/alexanderfo/data-x_public/raw/master/L12_SQL/imgs/family_tree.png" alt="Drawing" style="width: 250px;"/></center>
 
 .
 
