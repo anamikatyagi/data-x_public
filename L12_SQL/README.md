@@ -10,7 +10,18 @@ First we can see that there already exists a database with the tables: Categorie
 
 ## Dogs
 
-Everyone loves dogs, so now we will explore two data sets with dogs.
+Everyone loves dogs, so now we will now play around with some dogs.
+
+First create a table called parents. It has two columns: 'parent' and 'child'. The first column indicates the parent of the child in the second column. We will use a new form of `CREATE TABLE` expression to produce this table.
+
+	CREATE TABLE parents AS
+	  SELECT "abraham" AS parent, "barack" AS child UNION
+	  SELECT "abraham",           "clinton"         UNION
+	  SELECT "delano",            "herbert"         UNION
+	  SELECT "fillmore",          "abraham"         UNION
+	  SELECT "fillmore",          "delano"          UNION
+	  SELECT "fillmore",          "grover"          UNION
+	  SELECT "eisenhower",        "fillmore";
 
 
 
