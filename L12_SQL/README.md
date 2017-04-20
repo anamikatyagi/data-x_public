@@ -23,17 +23,18 @@ First create a table called parents. It has two columns: 'parent' and 'child'. T
 	  SELECT "fillmore",          "grover"          UNION
 	  SELECT "eisenhower",        "fillmore";
 	  
-### Q1 Simple SELECTS on the parents table
-1. SELECT all records in the table.
-2. SELECT all children that have abraham as parent.
-3. SELECT all children that have an 'e' in their name.
-4. SELECT all siblings from the parents table (see picture below)
 
 ### Picture of the Dog Family Tree
 
 (A = abrham, B = barack, etc.)
 
 <center><img src="https://github.com/alexanderfo/data-x_public/raw/master/L12_SQL/imgs/family_tree.png" width="200" /></center>
+	  
+## Q1 Simple SELECTS (on the parents table)
+1. SELECT all records in the table.
+2. SELECT all children that have abraham as parent.
+3. SELECT all children that have an 'e' in their name.
+4. SELECT all siblings from the parents table (see picture below)
 
 .
 
